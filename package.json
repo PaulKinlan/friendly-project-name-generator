@@ -1,0 +1,19 @@
+{
+  "name": "friendly-project-name",
+  "version": "1.0.0",
+  "description": "Creates friendly project names",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "friendly-words": "^1.1.10",
+    "micro-cors": "^0.1.1",
+    "now": "^16.4.3"
+  },
+  "engines": [
+    "10"
+  ]
+}
