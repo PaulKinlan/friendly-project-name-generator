@@ -26,9 +26,10 @@
 
 <script>
 
-  const render = (promise, elementId) => {
-    promise.then(data => {
+  const render = async (promise, elementId) => {
+    promise.then(response => {
       const el = document.getElementById(elementId);
+      const data = await response.json()
       el.innerText = JSON.parse(data);
     })
   }
