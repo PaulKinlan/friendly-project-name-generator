@@ -26,8 +26,8 @@
 
 <script>
 
-  const render = async (promise, elementId) => {
-    promise.then(response => {
+  const render =  (promise, elementId) => {
+    promise.then(async (response) => {
       const el = document.getElementById(elementId);
       const data = await response.json()
       el.innerText = JSON.parse(data);
