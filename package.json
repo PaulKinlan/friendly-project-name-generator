@@ -7,13 +7,12 @@
     "test": "node test.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apacahe 2",
   "dependencies": {
     "friendly-words": "^1.1.10",
     "micro-cors": "^0.1.1",
     "now": "^16.4.3"
   },
-  "engines": [
-    "10"
-  ]
+  "engines": { "node" : ">= 10.0.0" } 
+
 }
