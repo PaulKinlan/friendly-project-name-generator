@@ -30,7 +30,7 @@
     promise.then(async (response) => {
       const el = document.getElementById(elementId);
       const data = await response.json()
-      el.innerText = JSON.parse(data);
+      el.innerText = JSON.stringify(data);
     })
   }
 
